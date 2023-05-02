@@ -7,7 +7,7 @@ export default function Navbar() {
 
     return (
         <>
-            <ul className='container mx-auto py-10 flex'>
+            <ul className='container mx-auto py-10 flex px-4'>
                 <div className='ms-auto flex'>
                     <button className='hover:underline text-4xl animate-bounce' onClick={() => setActive(true)}>:)</button>
                 </div>
