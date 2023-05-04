@@ -11,7 +11,7 @@ export const knowledge = {
         "PHP": 6,
         "SQL": 7,
     },
-    "Rammeverk": {
+    "Rammeverk/biblioteker": {
         "React": 9,
         "Express.js": 7,
         "Node.js": 7,
