@@ -29,6 +29,7 @@ export default function Navigation({ setActive }) {
                     <animated.div style={{...slideInFromRight}}><NavLink text={"START"} to={"/start"} setActive={setActive} /></animated.div>
                     <animated.div style={{...slideInFromLeft}}><NavLink text={"KONTAKT"} to={"/contact"} setActive={setActive} /></animated.div>
                     <animated.div style={{...slideInFromRight}}><NavLink text={"GITHUB"} link={"https://github.com/olemorten"} setActive={setActive} /></animated.div>
+                    <animated.div style={{...slideInFromLeft}}><NavLink text={"LINKEDIN"} link={"https://www.linkedin.com/in/ole-m-halvorsen-a72a0422b/"} setActive={setActive} /></animated.div>
                 </ul>
             </animated.div>
         </div>

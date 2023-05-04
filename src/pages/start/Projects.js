@@ -1,27 +1,38 @@
 import React from 'react'
 
-import Wrapper from '../../components/Wrappers/Wrapper'
-import Title from "../../components/Typography/Title"
 import ProjectBox from '../../components/Projects/ProjectBox'
+import NavMan from '../../components/Navigation/NavMan'
 
-import DrikkeKalkulatoren from '../../assets/projects/drikkekalkulatoren.png'
-import Portifolio from '../../assets/projects/portifolio.png'
-import Rongve from '../../assets/projects/rongve.png'
+import { projects } from '../../components/data/projects'
 
 export default function Projects({ page, setPage }) {
+  const [currentProject, setCurrentProject] = React.useState(0)
+
+  if (currentProject > projects.length - 1) setPage(page + 1)
+
   return (
-    <Wrapper>
-      <Title>PROSJEKTER</Title>
-      <div className='gap-6 grid grid-cols-3 mb-4'>
-        <ProjectBox title={"DRIKKEKALKULATOREN"} description={"PRIS OG PROMILLEKALKULATOR"} image={DrikkeKalkulatoren} />
-        <ProjectBox title={"RONGVE APP"} description={"SPORTSBUTIKK APP FOR MEDLEMMER"} image={Rongve} />
-        <ProjectBox title={"PORTEFØLJE"} description={"PORTFOLIO FOR OLEHALV.DEV"} image={Portifolio} link={"https://olehalv.dev"} />
-      </div>
-      <div className='flex gap-2 mb-2'>
-        <button onClick={() => setPage(page - 1)} className='hover:text-[#4F48EC] transition-colors duration-150'>TILBAKE</button>
-        |
-        <button onClick={() => setPage(page + 1)} className='hover:text-[#4F48EC] transition-colors duration-150'>NESTE</button>
-      </div>
-    </Wrapper>
+    <div>
+      <NavMan arrow={false} style={"absolute w-32 mt-5 right-5"} explaining={true} />
+      {projects.map((project, index) => {
+        return (
+          <>
+            {project.index === currentProject &&
+              <ProjectBox
+                currentProject={currentProject}
+                setCurrentProject={setCurrentProject}
+                key={index}
+                index={`${project.index + 1} av ${projects.length}`}
+                i={project.index}
+                title={project.title}
+                description={project.description}
+                designDescription={project.designDescription}
+                tools={project.tools}
+                link={project.link}
+                image={project.image}
+              />}
+          </>
+        )
+      })}
+    </div>
   )
 }

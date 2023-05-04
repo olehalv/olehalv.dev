@@ -1,0 +1,46 @@
+export const knowledge = {
+    "Språk": {
+        "HTML": 10,
+        "CSS": 10,
+        "JavaScript": 10,
+        "TypeScript": 8,
+        "Python": 9,
+        "Kotlin": 5,
+        "Java": 4,
+        "C++": 5,
+        "PHP": 6,
+        "SQL": 7,
+    },
+    "Rammeverk": {
+        "React": 9,
+        "Express.js": 7,
+        "Node.js": 7,
+        "TailwindCSS": 8,
+        "Bootstrap": 10,
+        "Material-UI": 6,
+    },
+    "DevOps": {
+        "Git": 9,
+        "GitHub": 9,
+        "GitLab": 8,
+        "BitBucket": 7,
+        "Docker": 6,
+        "Jenkins": 5,
+        "TeamCity": 5,
+        "AWS": 4,
+        "Azure": 4,
+        "Google Cloud": 4,
+    },
+    "Verktøy": {
+        "VS Code": 10,
+        "IntelliJ": 8,
+        "Postman": 7,
+        "Figma": 6,
+    },
+    "Databaser": {
+        "MongoDB": 8,
+        "MySQL": 7,
+        "MsSQL": 5,
+        "MariaDB": 5,
+    }
+}
