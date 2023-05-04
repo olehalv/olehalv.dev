@@ -12,7 +12,7 @@ export default function Projects({ page, setPage }) {
 
   return (
     <div>
-      <NavMan arrow={false} style={"absolute w-32 mt-5 right-5"} explaining={true} />
+      <NavMan arrow={false} style={"absolute w-32 mt-5 right-0 md:right-5"} explaining={true} />
       {projects.map((project, index) => {
         return (
           <>

@@ -17,7 +17,7 @@ export default function Start() {
                 <div>
                     <NavMan arrow={false} style={"absolute w-24 mt-5 right-5"} />
                     <Wrapper>
-                        <button className='text-6xl hover:text-[#4F48EC] transition-colors duration-150 animate-bounce' onClick={() => setPage(page + 1)}>START</button>
+                        <button className='text-4xl md:text-6xl hover:text-[#4F48EC] transition-colors duration-150 animate-bounce' onClick={() => setPage(page + 1)}>START</button>
                     </Wrapper>
                 </div>
             )}

@@ -11,13 +11,15 @@ export const knowledge = {
         "PHP": 6,
         "SQL": 7,
     },
-    "Rammeverk/biblioteker": {
+    "Rammeverk++": {
         "React": 9,
         "Express.js": 7,
         "Node.js": 7,
         "TailwindCSS": 8,
         "Bootstrap": 10,
         "Material-UI": 6,
+        "Axios": 9,
+        "Firebase API": 8,
     },
     "DevOps": {
         "Git": 9,
@@ -40,7 +42,8 @@ export const knowledge = {
     "Databaser": {
         "MongoDB": 8,
         "MySQL": 7,
-        "MsSQL": 5,
+        "MsSQL": 6,
         "MariaDB": 5,
-    }
+        "Firebase": 8,
+    },
 }

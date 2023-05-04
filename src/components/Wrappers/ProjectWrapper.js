@@ -8,5 +8,5 @@ export default function ProjectWrapper({ children }) {
         to: { opacity: 1, transform: 'translateY(0px)' }
     })
 
-    return <animated.div style={{ ...fadeUp }} className='h-screen items-center container mx-auto px-4 grid grid-cols-2 gap-10'>{children}</animated.div>
+    return <animated.div style={{ ...fadeUp }} className='h-screen max-w-screen items-center container mx-auto px-4 py-4 grid md:grid-cols-2 gap-10'>{children}</animated.div>
 }

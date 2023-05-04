@@ -13,10 +13,10 @@ export default function NavMan({arrow = true, style, explaining = false}) {
             <button onClick={() => {
                 if (active) setActive(false)
                 else setActive(true)
-            }} className={style}>
-                {arrow && <p className='animate-bounce mb-4 text-4xl'>&darr;</p>}
-                {!explaining && <img src={PixelArt} alt="Pixel art" className='w-48' />}
-                {explaining && <img src={PixelArt2} alt="Pixel art" className='w-48' />}
+            }} className={style + " z-10"}>
+                {arrow && <p className='animate-bounce mb-4 text-2xl md:text-4xl'>&darr;</p>}
+                {!explaining && <img src={PixelArt} alt="Pixel art" className='w-24 md:w-48' />}
+                {explaining && <img src={PixelArt2} alt="Pixel art" className='w-24 md:w-48' />}
             </button>
             {active && <Navigation setActive={setActive} />}
         </>

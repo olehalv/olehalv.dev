@@ -25,7 +25,7 @@ export default function Contact() {
             <Wrapper>
                 <Title>Kontakt meg</Title>
                 <p className='mb-2'>Kontakt meg <span id='about' className='text-[#4F48EC] text-xl'></span></p>
-                <div className='grid grid-cols-3 gap-8 w-full text-center my-4'>
+                <div className='grid md:grid-cols-3 gap-8 w-full text-center my-4'>
                     <div className='p-4 border-4 border-white col-span-1'>
                         <h2 className='text-2xl mb-2'>Personlig epost</h2>
                         <a href="mailto:ole2005morten@outlook.com" className='text-[#4F48EC] font-bold'>ole2005morten@outlook.com</a>
