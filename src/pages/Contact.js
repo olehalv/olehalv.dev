@@ -25,26 +25,26 @@ export default function Contact() {
             <Wrapper>
                 <Title>Kontakt meg</Title>
                 <p className='mb-2'>Kontakt meg <span id='about' className='text-[#4F48EC] text-xl'></span></p>
-                <div className='grid md:grid-cols-3 gap-8 w-full text-center my-4'>
+                <div className='grid lg:grid-cols-2 xl:grid-cols-3 gap-8 w-full text-center my-4'>
                     <div className='p-4 border-4 border-white col-span-1'>
                         <h2 className='text-2xl mb-2'>Personlig epost</h2>
-                        <a href="mailto:ole2005morten@outlook.com" className='text-[#4F48EC] font-bold'>ole2005morten@outlook.com</a>
+                        <a href="mailto:ole2005morten@outlook.com" className='text-[#4F48EC] font-bold text-sm'>ole2005morten@outlook.com</a>
                     </div>
                     <div className='p-4 border-4 border-white col-span-1'>
                         <h2 className='text-2xl mb-2'>Skole epost</h2>
-                        <a href="mailto:olehalv@viken.no" className='text-[#4F48EC] font-bold'>olehalv@viken.no</a>
+                        <a href="mailto:olehalv@viken.no" className='text-[#4F48EC] font-bold text-sm'>olehalv@viken.no</a>
                     </div>
                     <div className='p-4 border-4 border-white col-span-1'>
                         <h2 className='text-2xl mb-2'>Telefon</h2>
-                        <a href="tel:+47 46894546" className='text-[#4F48EC] font-bold'>+47 468 94 546</a>
+                        <a href="tel:+47 46894546" className='text-[#4F48EC] font-bold text-sm'>+47 468 94 546</a>
                     </div>
                     <div className='p-4 border-4 border-white col-span-1'>
                         <h2 className='text-2xl mb-2'>LinkedIn</h2>
-                        <a href="https://www.linkedin.com/in/ole-m-halvorsen-a72a0422b/" target='_blank' className='text-[#4F48EC] font-bold'>Ole Morten Halvorsen++</a>
+                        <a href="https://www.linkedin.com/in/ole-m-halvorsen-a72a0422b/" target='_blank' rel='noreferrer' className='text-[#4F48EC] font-bold text-sm'>Ole Morten Halvorsen++</a>
                     </div>
                     <div className='p-4 border-4 border-white col-span-1'>
                         <h2 className='text-2xl mb-2'>GitHub</h2>
-                        <a href="https://github.com/olemorten" target='_blank' className='text-[#4F48EC] font-bold'>olemorten++</a>
+                        <a href="https://github.com/olemorten" target='_blank' rel='noreferrer' className='text-[#4F48EC] font-bold text-sm'>olemorten++</a>
                     </div>
                 </div>
             </Wrapper>

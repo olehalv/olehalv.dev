@@ -4,6 +4,7 @@ import Rongve1 from "../../assets/projects/rongve1.png"
 import Rongve2 from "../../assets/projects/rongve2.png"
 import Rongve3 from "../../assets/projects/rongve3.png"
 import WebnowAdmin from "../../assets/projects/webnowadmin.png"
+import Raknehaugspillet from "../../assets/projects/raknehaugspillet.png"
 
 export const projects = [
     {
@@ -13,7 +14,7 @@ export const projects = [
       designDescription: "Jeg gikk for en pixel-art design, fordi jeg synes det er kult. Jeg brukte DallE AI for å lage pixel-art bildene, og jeg brukte React Spring for å lage animasjonene.",
       tools: ["HTML", "CSS", "JavaScript", "React.js", "TailwindCSS", "React Router Dom", "React Spring", "DallE AI"],
       image: Portifolio,
-      link: "https://olehalv.dev",
+      link: "https://olehalv.dev/",
       learned: "Jeg lærte mye om React Spring, og jeg lærte også om DallE AI."
     },
     {
@@ -42,5 +43,15 @@ export const projects = [
       tools: ["HTML", "CSS", "JavaScript", "React.js", "Bootstrap", "React Router Dom", "Firebase"],
       image: WebnowAdmin,
       learned: "Jeg lærte enda mer om React.js, og jeg lærte også enda mer om Firebase."
+    },
+    {
+      index: 4,
+      title: "RAKNEHAUGSPILLET",
+      description: "Dette er en nettside laget for Raknehaugspillet som er en lokal event i Jessheim. De trengte en nettside hvor de kunne legge ut informasjon om eventet, og hvor de kunne vise link til billetter. Det er en veldig enkel nettside laget i HTML, CSS, JavaScript og PHP. Denne netsiden ble laget sammen med en annen kompis. Nettsiden er dynamisk og innholdet kan endres av adminstratorer.",
+      designDescription: "Selve designet er laget ut ifra en template som vi fant på nettet, og vi endret litt på den for å passe til nettsiden, og lagde en egen admin-panel på nettsiden basert på den templaten.",
+      tools: ["HTML", "CSS", "JavaScript", "PHP", "Bootstrap", "MySQL"],
+      image: Raknehaugspillet,
+      learned: "Jeg lærte mye mer om PHP, og jeg lærte også mye mer om MySQL.",
+      link: "https://raknehaugspillet.no/"
     }
   ]

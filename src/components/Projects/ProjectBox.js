@@ -27,7 +27,7 @@ export default function ProjectBox({ currentProject, setCurrentProject, index, i
         </div>
         <div className='mb-8'>
           <ParagraphXl>BESØK</ParagraphXl>
-          {link && <a href={link} className='hover:text-[#4F48EC] transition-colors duration-150 underline text-xs md:text-base'>{link}</a>}
+          {link && <a href={link} target='_blank' rel='noreferrer' className='hover:text-[#4F48EC] transition-colors duration-150 underline text-xs md:text-base'>{link}</a>}
           {!link && <button className='underline' disabled>IKKE TILGJENGELIG</button>}
         </div>
       </div>
