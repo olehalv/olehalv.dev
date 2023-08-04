@@ -12,4 +12,4 @@ Følgende programmeringsspråk, rammerverk og biblioteker ble brukt:
   <li>Tailwind CSS</li>
 </ul>
 
-Kan besøkes på <a href="https://olehalv.dev" target="_blank">olehalv.dev</a>.
+Kan besøkes på <a href="https://olehalv.dev">olehalv.dev</a>.
