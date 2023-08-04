@@ -12,6 +12,6 @@ Følgende programmeringsspråk, rammerverk og biblioteker ble brukt:
   <li>Tailwind CSS</li>
 </ul>
 
-Prosjektet er ikke ferdig.
+Prosjektet er ikke ferdig og er ikke fullt responsiv.
 
 Kan besøkes på <a href="https://olehalv.dev">olehalv.dev</a>
